@@ -3,7 +3,7 @@ package java.hellojava;
 public class HelloJava {
 
      public static void main(String[] args) {
-    	 String string = "Destination";      
+    	 String string = "Destination1";      
          String reversedStr = "";        
          for(int i = string.length()-1; i >= 0; i--){    
              reversedStr = reversedStr + string.charAt(i);    
@@ -12,6 +12,7 @@ public class HelloJava {
          System.out.println("Original string1: " + string);      
          System.out.println("Reverse of string: " + reversedStr); 
          System.out.println("All is well");
+         System.out.println("How are you?");
      }     
      }
 
